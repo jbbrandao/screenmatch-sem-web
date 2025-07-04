@@ -14,13 +14,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args)  {
-		try {
-			Principal principal = new Principal();
-			principal.exibeMenu();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-
+		Principal principal = new Principal();
+		principal.exibeMenu();
 	}
 }
